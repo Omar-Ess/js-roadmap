@@ -1,0 +1,52 @@
+basics : 
+
+ 1.Primitive Types (string , int ...)
+ 2.Reference Types (Objects, Arrays , Functions)
+ 3.null vs undefined vs ""
+
+advanced (es6 , es7 ...)
+ 1.let vs var vs const
+ 2.Methods inside Objects 
+ 3.This keyword 
+ 4.Rebinding this
+ 5.arrow functions
+ 6.arrow functions and this 
+   (this in normal functions depends on where functions are called / 
+    using arrow functions based on the parent scope where the function is defined)
+ 7.array es6 functions (filter, map, find, foreach, some, every, reduce, includes)
+ 8.object & array destruction
+ 9.spread operator
+ 10.classes
+ 11.inheritance
+ 12.modules
+ 13.Named and default imports
+ 14.Asynchronus code
+ 15.Callbacks
+ 16.Promises - Promise.all
+ 17.Async await
+ 18.template literals
+ 19.strings methods 
+    slicing (slice(index , endindex) , substring (index, endindex) , substr(index , length of the extracted part))
+    replacing(replace(word ,replace value )) 
+    searching (search(word) , indexOf(word) , lastIndexOf(word) , startsWith(word) , endsWith(word) ...)
+    other (ToUpperCase() , toLowerCase() , concat(word , word) , trim() )
+
+
+DOM (not important when it comes to react / vue / angular ... because those frameworks take care of the dom manipulation for you) :
+  1.finding HTML elements (getElementById , getElementsByTagName , getElementsByClassName)
+  2.changing HTML elements(innerHTML , attribute , style.property , setAttribute)
+  3.adding and deleting elements (createElement , removeChild , appendChild , replaceChild, write )
+  4.events handlers (onclick , onmouseover...)
+  5.finding HTMl object (anchors, body , cookie , domain , head , title)
+  6.forms
+  
+BOM :
+  1.window (innerHeight , innerWidth , open , close....)
+  2.screen
+  3.location (href , hostname , pathname ...)
+  4.history (back , forward)
+
+Browsers APIs :
+  1.localStorage
+  2.fetch
+  3.geolocation ....
